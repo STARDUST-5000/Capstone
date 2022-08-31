@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+}
+
+:root{
+    --color-primary: #dc4f72;
+    --color-primary-hover: #b8405e;
+    --color-secondary: #f55a81;
+    --height-header: 100px;
+    --color-text:rgb(113, 111, 111);
+} 
+
+.btn-primary{
+    height: 54px;
+    border: 1px solid var(--color-primary);
+    background-color: #fff;
+    color: var(--color-primary);
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
